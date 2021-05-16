@@ -1,5 +1,11 @@
 source "https://rubygems.org"
 
 gem "ruboty"
-gem "ruboty-slack_rtm"
-gem 'pry-byebug'
+
+group :development do
+  gem 'pry-byebug'
+end
+
+group :production do
+  gem "ruboty-slack_rtm"
+end
