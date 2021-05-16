@@ -1,1 +1,1 @@
-bot: bundle exec ruboty -l hello.rb
+bot: bundle exec ruboty
