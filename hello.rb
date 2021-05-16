@@ -1,5 +1,3 @@
-require "pry"
-
 module Ruboty
   module Handlers
     class Hello < Base
